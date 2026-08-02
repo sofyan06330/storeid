@@ -11,6 +11,6 @@
   },
   "rewrites": [
     { "source": "/backend/(.*)", "destination": "backend" },
-    { "source": "/(.*)", "destination": "frontend" }
+    { "source": "/frontend(.*)", "destination": "frontend" }
   ]
 }
