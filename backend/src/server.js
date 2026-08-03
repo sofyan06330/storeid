@@ -4,5 +4,5 @@ require('dotenv').config();
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
-  console.log(`TokoDinamis API berjalan di http://localhost:${PORT}`);
+  console.log(`StoreID di http://localhost:${PORT}`);
 });
