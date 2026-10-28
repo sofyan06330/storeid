@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use('/uploads', express.static(path.join(__dirname, '../uploads')));
 
-app.get('/', (req, res) => res.json({ success: true, message: 'TokoDinamis API is running.' }));
+app.get('/', (req, res) => res.json({ success: true, message: 'Storeid API is running.' }));
 
 app.use('/api/auth', authRoutes);
 app.use('/api/products', productRoutes);
